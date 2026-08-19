@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "autoincrement",
+ "creation": "2026-08-18 15:47:51.916666",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_osw1",
+  "amended_from",
+  "name1",
+  "age",
+  "suffered",
+  "disease_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_osw1",
+   "fieldtype": "Section Break",
+   "label": "Submittable doctype"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Sub_testing",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "age"
+  },
+  {
+   "depends_on": "eval:doc.suffered==\"Yes\"",
+   "fieldname": "disease_name",
+   "fieldtype": "Data",
+   "label": "problem",
+   "placeholder": "Enter the problem"
+  },
+  {
+   "default": "No",
+   "fieldname": "suffered",
+   "fieldtype": "Select",
+   "label": "suffered",
+   "options": "Yes\nNo"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-08-18 16:05:53.015453",
+ "modified_by": "Administrator",
+ "module": "hospital_management",
+ "name": "Sub_testing",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

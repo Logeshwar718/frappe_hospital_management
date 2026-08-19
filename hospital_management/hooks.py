@@ -5,6 +5,9 @@ app_description = "hospital_management"
 app_email = "logeshwarks2005@gmail.com"
 app_license = "mit"
 
+export_python_type_annotations = True
+
+
 # Apps
 # ------------------
 
