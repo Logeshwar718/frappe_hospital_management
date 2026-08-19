@@ -1,7 +1,6 @@
 import frappe
 from frappe.query_builder import DocType
 
-
 @frappe.whitelist()
 def process_patients():
 
@@ -49,3 +48,32 @@ def process_patients():
         )
 
     return patients
+
+@frappe.whitelist()
+def get_recent_todos():
+    todos = frappe.get_list(
+        "ToDo",
+        fields=["name", "description", "owner"],
+        order_by="creation desc",
+        limit_page_length=5
+    )
+
+    records = []
+
+    for todo in todos:
+        owner_email = frappe.db.get_value(
+            "User",
+            todo.owner,
+            "email"
+        )
+
+        records.append({
+            "name": todo.name,
+            "description": todo.description,
+            "owner_email": owner_email
+        })
+
+    return {
+        "timestamp": frappe.utils.now(),
+        "records": records
+    }
