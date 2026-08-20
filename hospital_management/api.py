@@ -77,3 +77,11 @@ def get_recent_todos():
         "timestamp": frappe.utils.now(),
         "records": records
     }
+
+@frappe.whitelist()
+def create_task(task_subject):
+    task = frappe.new_doc("Task")
+    task.subject = task_subject
+    task.save()
+
+    return task.name
