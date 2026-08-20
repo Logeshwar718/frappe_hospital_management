@@ -6,4 +6,9 @@
 
 ## Assignment: Utilities (frappe.utils), Jinja API, Routing & Rendering & Search API
 1. File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/api.py <br>
-<img width="1912" height="1012" alt="f3" src="https://github.com/user-attachments/assets/986ffc7d-f2f9-4db3-a906-b5b6b1721605" />
+<img width="1912" height="1012" alt="f3" src="https://github.com/user-attachments/assets/986ffc7d-f2f9-4db3-a906-b5b6b1721605" /> <br>
+
+## Assignment: frappe.call, frappe.msgprint, frappe.ui.form & frappe.model
+1. File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/api.py <br>
+<img width="1917" height="1047" alt="f6" src="https://github.com/user-attachments/assets/77ad80ce-7f7e-4c48-bb89-b3983f537be0" /> <br>
+<img width="1918" height="1022" alt="hiuyb" src="https://github.com/user-attachments/assets/f8ad6352-38f0-4344-ba04-16df6eda0531" /> <br>
