@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "CUS-.####",
+ "creation": "2026-08-24 17:33:24.281798",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customers_section",
+  "name1",
+  "phone_number",
+  "total_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "customers_section",
+   "fieldtype": "Section Break",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone number"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_order",
+   "fieldtype": "Int",
+   "label": "Total Order"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-25 14:56:09.433310",
+ "modified_by": "Administrator",
+ "module": "hospital_management",
+ "name": "Customers",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
