@@ -16,10 +16,13 @@ class Cart_Products(Document):
 		from hospital_management.hospital_management.doctype.cart.cart import Cart
 
 		add_product: DF.Table[Cart]
+		amount_paid: DF.Currency
+		balance_amount: DF.Currency
 		cart_total: DF.Currency
 		coupon_code: DF.Data | None
 		customer_name: DF.Data | None
 		grand_total: DF.Currency
+		payment_status: DF.Literal["Pending", "Partially Paid", "Paid"]
 		phone_number: DF.Phone | None
 	# end: auto-generated types
 

@@ -19,7 +19,13 @@
   "column_break_palh",
   "coupon_code",
   "column_break_njns",
-  "grand_total"
+  "grand_total",
+  "section_break_nuyw",
+  "balance_amount",
+  "column_break_qhav",
+  "amount_paid",
+  "column_break_dvxi",
+  "payment_status"
  ],
  "fields": [
   {
@@ -87,12 +93,43 @@
    "fieldname": "coupon_code",
    "fieldtype": "Data",
    "label": "Coupon Code"
+  },
+  {
+   "fieldname": "section_break_nuyw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "balance_amount",
+   "fieldtype": "Currency",
+   "label": "Balance Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qhav",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Currency",
+   "label": "Amount paid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_dvxi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment status",
+   "options": "Pending\nPartially Paid\nPaid",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-26 18:42:27.903336",
+ "modified": "2026-08-27 15:52:41.411293",
  "modified_by": "Administrator",
  "module": "hospital_management",
  "name": "Cart_Products",

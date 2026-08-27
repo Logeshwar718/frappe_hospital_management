@@ -186,3 +186,40 @@ frappe.ui.form.on("Cart_Products",{
         coupon(frm);
     }
 });
+
+
+//Payment
+
+frappe.ui.form.on("Cart_Products", {
+    refresh(frm) {
+        if (!frm.is_new()) {
+            frm.add_custom_button("Make Payment", function() {
+                make_payment(frm);
+            });
+        }
+    },
+
+    grand_total(frm) {
+        if (!frm.doc.amount_paid) {
+            frm.set_value("amount_paid", 0);
+        }
+        let balance = frm.doc.grand_total - frm.doc.amount_paid;
+        frm.set_value("balance_amount", balance);
+    }
+});
+
+function make_payment(frm) {
+    if (frm.doc.balance_amount <= 0) {
+        frappe.msgprint("This cart is already fully paid.");
+        return;
+    }
+    frappe.new_doc("Payment", {
+        cart: frm.doc.name,
+        customer_name: frm.doc.customer_name,
+        phone_number: frm.doc.phone_number,
+        total_amount: frm.doc.grand_total,
+        balance_amount: frm.doc.balance_amount,
+        payment_status: "Pending"
+    });
+}
+

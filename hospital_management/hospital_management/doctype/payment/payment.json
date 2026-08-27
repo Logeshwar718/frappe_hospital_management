@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "PAY-.####",
+ "creation": "2026-08-27 12:18:47.110384",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "payment_section",
+  "cart",
+  "customer_name",
+  "phone_number",
+  "total_amount",
+  "balance_amount",
+  "mode_of_payment",
+  "pay_amount",
+  "payment_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Payment"
+  },
+  {
+   "fetch_from": "cart_products.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cart_products.phone_number",
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cart_products.grand_total",
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total amount",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "cart_products.payment_status",
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment status",
+   "options": "Pending\nPartially Paid\nPaid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mode_of_payment",
+   "fieldtype": "Select",
+   "label": "Mode of payment",
+   "options": "UPI\nCard\nNet Banking"
+  },
+  {
+   "fetch_from": "cart_products.balance_amount",
+   "fieldname": "balance_amount",
+   "fieldtype": "Currency",
+   "label": "Balance amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pay_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Pay Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cart",
+   "fieldtype": "Link",
+   "label": "Cart",
+   "options": "Cart_Products"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-27 14:39:08.891047",
+ "modified_by": "Administrator",
+ "module": "hospital_management",
+ "name": "Payment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
