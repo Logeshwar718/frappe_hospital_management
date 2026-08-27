@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "COUP-.###",
+ "creation": "2026-08-26 18:45:55.570146",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "minimum_amount",
+  "percentage",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "minimum_amount",
+   "fieldtype": "Currency",
+   "label": "Minimum Amount",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Int",
+   "label": "Percentage"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-27 10:37:03.272235",
+ "modified_by": "Administrator",
+ "module": "hospital_management",
+ "name": "Discount",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

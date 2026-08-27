@@ -17,7 +17,7 @@
   "section_break_o4hm",
   "cart_total",
   "column_break_palh",
-  "discount",
+  "coupon_code",
   "column_break_njns",
   "grand_total"
  ],
@@ -37,14 +37,6 @@
    "fieldname": "cart_total",
    "fieldtype": "Currency",
    "label": "Cart total",
-   "read_only": 1
-  },
-  {
-   "default": "10",
-   "depends_on": "eval:doc.cart_total>=1000000",
-   "fieldname": "discount",
-   "fieldtype": "Percent",
-   "label": "Discount",
    "read_only": 1
   },
   {
@@ -90,12 +82,17 @@
   {
    "fieldname": "column_break_njns",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coupon_code",
+   "fieldtype": "Data",
+   "label": "Coupon Code"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-25 14:15:48.963048",
+ "modified": "2026-08-26 18:42:27.903336",
  "modified_by": "Administrator",
  "module": "hospital_management",
  "name": "Cart_Products",
