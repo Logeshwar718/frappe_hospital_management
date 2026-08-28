@@ -223,3 +223,10 @@ function make_payment(frm) {
     });
 }
 
+frappe.ui.form.on("Cart_Products",{
+    refresh(frm){
+        if(frm.doc.balance_amount==0){
+            frm.remove_custom_button("Make Payment");
+        }
+    }
+});

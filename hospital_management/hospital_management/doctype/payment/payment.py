@@ -1,7 +1,7 @@
 # Copyright (c) 2026, logeshwar and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
@@ -24,4 +24,11 @@ class Payment(Document):
 		total_amount: DF.Currency
 	# end: auto-generated types
 
-	pass
+	def validate(self, method=None):
+		if self.balance_amount == 0:
+			self.payment_status = "Paid"
+		elif self.balance_amount > 0 and self.balance_amount < self.total_amount:
+			self.payment_status = "Partially Paid"
+		else:
+			self.payment_status = "Pending"
+
