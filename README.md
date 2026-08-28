@@ -12,3 +12,7 @@
 1. File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/api.py <br>
 <img width="1917" height="1047" alt="f6" src="https://github.com/user-attachments/assets/77ad80ce-7f7e-4c48-bb89-b3983f537be0" /> <br>
 <img width="1918" height="1022" alt="hiuyb" src="https://github.com/user-attachments/assets/f8ad6352-38f0-4344-ba04-16df6eda0531" /> <br>
+
+## Assignment: Site Management & Extending CLI
+1. File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/commands.py <br>
+<img width="587" height="127" alt="image" src="https://github.com/user-attachments/assets/cc39cda5-c00b-4165-a65b-93e77bf05efb" />
