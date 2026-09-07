@@ -24,4 +24,11 @@ File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/
 
 2.Report Print Format <br>
 File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report1/report1.html <br>
-<img width="1167" height="843" alt="image" src="https://github.com/user-attachments/assets/f312f9fa-8dce-49e9-a93c-1e023edb4d32" />
+<img width="1167" height="843" alt="image" src="https://github.com/user-attachments/assets/f312f9fa-8dce-49e9-a93c-1e023edb4d32" /> <br>
+
+## Assignment: reports-and-printing-query Assignment
+1. .js file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.js <br>
+2. .py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.py <br>
+3. .json file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.json <br>
+4. .html file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.html <br>
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/5cee144f-f5e7-48ba-aee2-cc9ff6c227d7" />
