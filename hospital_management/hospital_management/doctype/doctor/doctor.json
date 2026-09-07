@@ -23,14 +23,16 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Doctor name",
-   "reqd": 1
+   "reqd": 1,
+   "width": "50"
   },
   {
    "fieldname": "specialization",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Specialization",
-   "reqd": 1
+   "reqd": 1,
+   "set_only_once": 1
   },
   {
    "fieldname": "status",
@@ -42,7 +44,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-18 18:22:53.280065",
+ "modified": "2026-09-05 19:02:52.166156",
  "modified_by": "Administrator",
  "module": "hospital_management",
  "name": "Doctor",
