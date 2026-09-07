@@ -1,0 +1,38 @@
+<div class="print-heading">
+    <h2>Student Fee Report</h2>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Student Name</th>
+            <th>Posting Date</th>
+            <th>Fee Amount</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for (var i = 0, l = data.length; i < l; i++) { %}
+
+        <tr>
+            <td>
+                {%= data[i].student %}
+            </td>
+
+            <td>
+                {%= data[i].student_name %}
+            </td>
+
+            <td>
+                {%= dateutil.str_to_user(data[i].posting_date) %}
+            </td>
+
+            <td class="text-right">
+                {%= format_money(data[i].fee_amount) %}
+            </td>
+        </tr>
+
+        {% } %}
+    </tbody>
+</table>
