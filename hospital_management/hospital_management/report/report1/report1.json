@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-09-07 12:37:55.367289",
+ "disable_prepared_report_automation": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "doctype_to_sync": [],
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": null,
+ "modified": "2026-09-07 14:13:54.506586",
+ "modified_by": "Administrator",
+ "module": "hospital_management",
+ "name": "report1",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select name, patient_name, age, gender, status from `tabPatient` where gender = %(gender)s;",
+ "ref_doctype": "Patient",
+ "report_name": "report1",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "snapshot_report": 0,
+ "timeout": 0
+}

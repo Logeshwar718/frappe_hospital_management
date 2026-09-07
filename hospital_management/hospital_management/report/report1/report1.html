@@ -1,0 +1,26 @@
+<div class="print-format">
+    <h3 class="text-center">Report1 - Patient</h3>
+    <h5 class="text-center">Gender: {%= filters.gender ? filters.gender : "All" %}</h5>
+    <table class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>Patient ID</th>
+                <th>Patient</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for(var i = 0, l = data.length; i < l; i++) { %}
+            <tr>
+                <td>{%= data[i].name %}</td>
+                <td>{%= data[i].patient_name %}</td>
+                <td>{%= data[i].age %}</td>
+                <td>{%= data[i].gender %}</td>
+                <td>{%= data[i].status %}</td>
+            </tr>
+            {% } %}
+        </tbody>
+    </table>
+</div>
