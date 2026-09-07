@@ -15,4 +15,13 @@
 
 ## Assignment: Site Management & Extending CLI
 1. File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/commands.py <br>
-<img width="587" height="127" alt="image" src="https://github.com/user-attachments/assets/cc39cda5-c00b-4165-a65b-93e77bf05efb" />
+<img width="587" height="127" alt="image" src="https://github.com/user-attachments/assets/cc39cda5-c00b-4165-a65b-93e77bf05efb" /> <br>
+
+## Assignment: reports-printing-pf-builder Assignment
+1. Jinja Print Format <br>
+File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/print_format/pf1/pf1.json <br>
+<img width="1917" height="1007" alt="image" src="https://github.com/user-attachments/assets/e49df1bb-bf77-4d60-a61a-782b893ed2a3" /> <br>
+
+2.Report Print Format <br>
+File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report1/report1.html <br>
+<img width="1167" height="843" alt="image" src="https://github.com/user-attachments/assets/f312f9fa-8dce-49e9-a93c-1e023edb4d32" />
