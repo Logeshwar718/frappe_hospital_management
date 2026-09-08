@@ -31,4 +31,5 @@ File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/
 2. .py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.py <br>
 3. .json file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.json <br>
 4. .html file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/report/report2/report2.html <br>
-<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/5cee144f-f5e7-48ba-aee2-cc9ff6c227d7" />
+<img width="1917" height="1013" alt="image" src="https://github.com/user-attachments/assets/5cee144f-f5e7-48ba-aee2-cc9ff6c227d7" /> <br>
+<img width="1907" height="986" alt="image" src="https://github.com/user-attachments/assets/c83b951e-1c9e-44ce-b58c-2a9657aa09ff" />
