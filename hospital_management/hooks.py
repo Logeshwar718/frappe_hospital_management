@@ -7,6 +7,12 @@ app_license = "mit"
 
 export_python_type_annotations = True
 
+fixtures = [{
+    "dt":"Client Script",
+    "filters":[
+        ["dt","=","User"]
+    ]
+}]
 
 # Apps
 # ------------------

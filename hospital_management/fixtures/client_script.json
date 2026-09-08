@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "User",
+  "enabled": 1,
+  "modified": "2026-09-08 12:33:17.018284",
+  "module": "hospital_management",
+  "name": "script1",
+  "script": "frappe.ui.form.on('User', {\n\trefresh(frm) {\n\t\tfrm.add_custom_button('Send Welcome Email', function() {\n            frappe.msgprint('Email Sent!');\n        }, 'Actions');\n\t}\n})",
+  "view": "Form"
+ }
+]
