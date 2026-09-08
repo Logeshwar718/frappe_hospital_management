@@ -85,3 +85,9 @@ def create_task(task_subject):
     task.save()
 
     return task.name
+
+@frappe.whitelist(allow_guest=True)
+def limited_greeting():
+    logger = frappe.logger()
+    logger.info("Endpoint called.")
+    frappe.response["message"] = "Hello, Rate Limited World!"
