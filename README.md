@@ -47,4 +47,8 @@ articles.html file path: https://github.com/Logeshwar718/frappe_hospital_managem
 
 2. Integration testing: <br>
 test_article.py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/doctype/article/test_article.py <br>
-<img width="1911" height="432" alt="image" src="https://github.com/user-attachments/assets/92c22fa2-90c1-4f5c-b0b3-d00570cdeebb" />
+<img width="1911" height="432" alt="image" src="https://github.com/user-attachments/assets/92c22fa2-90c1-4f5c-b0b3-d00570cdeebb" /> <br>
+
+## Assignment: others Assignment
+api.py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/api.py <br>
+<img width="1916" height="1016" alt="Screenshot 2026-09-08 190219" src="https://github.com/user-attachments/assets/4d0c9d8b-a31a-4f71-89e8-c62214a62040" />
