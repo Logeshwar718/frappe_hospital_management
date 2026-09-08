@@ -5,7 +5,8 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>Student</th>
+            <th>#</th>
+            <th>Student ID</th>
             <th>Student Name</th>
             <th>Posting Date</th>
             <th>Fee Amount</th>
@@ -17,6 +18,10 @@
 
         <tr>
             <td>
+                {%= i + 1 %}
+            </td>
+
+            <td>
                 {%= data[i].student %}
             </td>
 
@@ -25,11 +30,11 @@
             </td>
 
             <td>
-                {%= dateutil.str_to_user(data[i].posting_date) %}
+                {%= frappe.datetime.str_to_user(data[i].posting_date) %}
             </td>
 
             <td class="text-right">
-                {%= format_money(data[i].fee_amount) %}
+                {%= format_currency(data[i].fee_amount) %}
             </td>
         </tr>
 
