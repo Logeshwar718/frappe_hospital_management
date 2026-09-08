@@ -38,3 +38,13 @@ File path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/
 1. hooks file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hooks.py <br>
 2. fixtures file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/fixtures/client_script.json <br>
 <img width="1908" height="1008" alt="image" src="https://github.com/user-attachments/assets/565d773f-460c-41f4-b9d0-bdf34b80ff4b" />
+
+## Assignment: guides-3 Assignment
+1. Portal development: <br>
+articles.py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/www/articles.py <br>
+articles.html file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/www/articles.html <br>
+<img width="1917" height="1077" alt="Screenshot 2026-09-08 182823" src="https://github.com/user-attachments/assets/ee49b5b0-708e-4d79-a149-53253903c231" /> <br>
+
+2. Integration testing: <br>
+test_article.py file path: https://github.com/Logeshwar718/frappe_hospital_management/blob/main/hospital_management/hospital_management/doctype/article/test_article.py <br>
+<img width="1911" height="432" alt="image" src="https://github.com/user-attachments/assets/92c22fa2-90c1-4f5c-b0b3-d00570cdeebb" />
