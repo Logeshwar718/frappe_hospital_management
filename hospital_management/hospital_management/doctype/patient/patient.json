@@ -51,7 +51,8 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Active\nInactive\nDischarged"
+   "options": "Active\nInactive\nDischarged",
+   "sort_options": 1
   },
   {
    "fieldname": "processing_status",
@@ -63,7 +64,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-18 18:25:14.671180",
+ "modified": "2026-09-09 17:14:34.427008",
  "modified_by": "Administrator",
  "module": "hospital_management",
  "name": "Patient",

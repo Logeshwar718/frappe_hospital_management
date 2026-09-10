@@ -86,7 +86,10 @@ def create_task(task_subject):
 
     return task.name
 
+from frappe.rate_limiter import rate_limit
+
 @frappe.whitelist(allow_guest=True)
+@rate_limit(limit=5)
 def limited_greeting():
     logger = frappe.logger()
     logger.info("Endpoint called.")
